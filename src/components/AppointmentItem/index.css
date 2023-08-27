@@ -1,0 +1,33 @@
+/* Write your CSS here */
+li {
+  list-style: none;
+
+  border: 2px solid #b5b7c4;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+}
+.ap-container {
+  display: flex;
+  justify-content: space-between;
+}
+.star-btn {
+  background-color: transparent;
+  border-width: 0px;
+}
+.ap-title {
+  font-weight: 500;
+  color: #171f46;
+}
+.date-para {
+  color: #b5b7c4;
+  font-weight: 800;
+}
+@media (min-width: 767px) {
+  li {
+    width: 300px;
+    border: 2px solid #b5b7c4;
+    border-radius: 8px;
+    padding: 10px;
+  }
+}
